@@ -34,3 +34,4 @@ data/
 data2/
 runs/
 __pycache__/
+slurm*

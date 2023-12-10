@@ -1,5 +1,5 @@
 names:
   0: head
-path: I:/research/head/data2
+path: /home/rensso/heads/data
 train: images/train
 val: images/val

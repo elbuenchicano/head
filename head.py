@@ -14,7 +14,7 @@ def organize():
     tsize   = 0.8 
     
     win     = 'I:/research/head/data/mix'
-    linux   = '/home/rensso/heads/hollywoodheads-640x38'
+    linux   = '/home/rensso/heads/hollywoodheads-640x384'
     root    = win if u_whichOS()=='win' else linux
 
     win     = 'I:/research/head/data2'
@@ -97,7 +97,7 @@ def organize():
 
 def yolotrain():
     model   = YOLO('yolov8n.pt')
-    results = model.train(data='data.yaml', epochs=5)
+    results = model.train(data='data.yaml', epochs=15, batch=8)
 
 
 ##############################################################
